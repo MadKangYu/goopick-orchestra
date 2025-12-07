@@ -8,10 +8,10 @@
 goopick-orchestra/          # 이 저장소 (지휘자)
 ├── goopick-claude/         # Claude 작업물 (서브모듈)
 ├── goopick-vault/          # Obsidian 노트 (서브모듈)
+├── goopick-notion/         # Notion API 연동 (서브모듈)
 └── scripts/
     ├── sync-all.sh         # 전체 동기화
-    ├── status.sh           # 상태 확인
-    └── backup.sh           # 백업
+    └── status.sh           # 상태 확인
 ```
 
 ## 저장소 역할
@@ -20,7 +20,17 @@ goopick-orchestra/          # 이 저장소 (지휘자)
 |--------|------|--------|
 | goopick-claude | Claude 작업물 | 수동 (다운로드 → push) |
 | goopick-vault | Obsidian 노트 | Obsidian Git 자동 |
+| goopick-notion | Notion API 연동 | 스크립트 실행 |
 | goopick-orchestra | 통합 관리 | 수동 |
+
+## 법인 구분
+
+| 코드 | 회사명 | 유형 | 대표 |
+|------|--------|------|------|
+| goopick | 구픽 | 메인 | - |
+| dojangminjok | 도장민족 | - | - |
+| madstamp | 매드스탬프 | 개인회사 | 강유 |
+| madstampinc | 매드스탬프 | 법인회사 | 강유 |
 
 ## 사용법
 
@@ -41,5 +51,6 @@ git clone --recursive https://github.com/MadKangYu/goopick-orchestra.git
 
 ## 서브모듈
 
-- [goopick-claude](https://github.com/MadKangYu/goopick-claude)
-- [goopick-vault](https://github.com/MadKangYu/goopick-vault)
+- [goopick-claude](https://github.com/MadKangYu/goopick-claude) - Claude 작업물
+- [goopick-vault](https://github.com/MadKangYu/goopick-vault) - Obsidian 노트
+- [goopick-notion](https://github.com/MadKangYu/goopick-notion) - Notion API 연동

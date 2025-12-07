@@ -7,7 +7,7 @@ echo "🎼 goopick-orchestra 상태"
 echo "═══════════════════════════════════════"
 echo ""
 
-for repo in goopick-claude goopick-vault; do
+for repo in goopick-claude goopick-vault goopick-notion; do
     if [ -d "$repo" ]; then
         echo "📁 $repo"
         echo "───────────────────────────────────────"

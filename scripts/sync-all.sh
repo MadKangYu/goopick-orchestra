@@ -17,7 +17,7 @@ echo ""
 echo "📊 저장소 상태:"
 echo "─────────────────────────────────────"
 
-for repo in goopick-claude goopick-vault; do
+for repo in goopick-claude goopick-vault goopick-notion; do
     if [ -d "$repo" ]; then
         echo ""
         echo "📁 $repo"

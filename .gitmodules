@@ -4,3 +4,6 @@
 [submodule "goopick-vault"]
 	path = goopick-vault
 	url = https://github.com/MadKangYu/goopick-vault.git
+[submodule "goopick-notion"]
+	path = goopick-notion
+	url = https://github.com/MadKangYu/goopick-notion.git
