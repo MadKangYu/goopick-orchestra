@@ -1,0 +1,6 @@
+[submodule "goopick-claude"]
+	path = goopick-claude
+	url = https://github.com/MadKangYu/goopick-claude.git
+[submodule "goopick-vault"]
+	path = goopick-vault
+	url = https://github.com/MadKangYu/goopick-vault.git
